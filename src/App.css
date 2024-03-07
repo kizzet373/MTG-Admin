@@ -1,3 +1,62 @@
+/* Variables */
+
+
+:root {
+  --primary-color-light: #bcbcbc;
+  --secondary-color-light: #d6d6d6;
+  --tertiary-color-light: #f0f0f0;
+
+  --primary-color-dark: #212529;
+  --secondary-color-dark: #343a40;
+  --tertiary-color-dark: #495057; 
+}
+
+
+/* Theme Colors */
+
+
+.light-theme {
+  --primary-background-color: var(--primary-color-light);
+  --secondary-background-color: var(--secondary-color-light);
+  --tertiary-background-color: var(--tertiary-color-light);
+
+  --primary-color: var(--primary-color-dark);
+  --secondary-color: var(--secondary-color-dark);
+  --tertiary-color: var(--tertiary-color-dark);
+
+  background-color:var(--primary-background-color);
+  color:var(--primary-color);
+}
+
+.dark-theme {
+  --primary-background-color: var(--primary-color-dark);
+  --secondary-background-color: var(--secondary-color-dark);
+  --tertiary-background-color: var(--tertiary-color-dark);
+
+  --primary-color: var(--primary-color-light);
+  --secondary-color: var(--secondary-color-light);
+  --tertiary-color: var(--tertiary-color-light);
+
+  background-color:var(--primary-background-color);
+  color:var(--primary-color);
+}
+
+
+/* General Styles */
+
+
+#main {
+  background-color: var(--secondary-background-color);
+  background-image: url("/public/mtg-admin-logo.png");
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
 .App {
   text-align: center;
 }
@@ -14,18 +73,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +87,57 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* You can still keep custom animations or specific styles if needed */
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+nav.navbar {
+  min-height: 40px;
+  position: relative;
+  z-index: 1000;
+  padding: 1rem 1rem;
+}
+
+.nav-item.dropdown {
+  margin: 0rem 1rem;
+  font-size: 0.9em;
+}
+
+.nav-item.dropdown a{
+  color:var(--primary-color);
+}
+
+.nav-item.dropdown a.show{
+  color: #61dafb;
+}
+
+.homepage-message {
+  background-color: var(--tertiary-background-color);
+  color: var(--tertiary-color);
+}
+
+.iframe-container {
+  width: 100%;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
+
+.fullPageIframe {
+  width: 100vw;
+  height: 95vh;
+  border: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .fullPageIframe {
+    transform: scale(0.45);
+    transform-origin: 0 0;
+    width: 222vw;
+    height: calc(222vh - 50px);
   }
 }

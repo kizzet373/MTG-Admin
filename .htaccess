@@ -1,0 +1,8 @@
+# PassengerNodejs /home/kizzet/.nvm/versions/node/v12.22.3/bin/node
+RewriteEngine On
+RewriteBase /
+
+# Redirect all requests to index.html if not an actual file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
