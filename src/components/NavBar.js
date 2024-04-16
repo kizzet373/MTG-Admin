@@ -1,57 +1,56 @@
 //Libraries
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga'; 
 
 //Components
-import CEDHTournamentStats from './CEDHTournamentStats';
-import Homepage from './Homepage';
+import DonateButton from "../components/DonateButton";
 
 //Contexts
 import { useTheme } from '../contexts/theme-context';
 
 function NavBar() {
     const { theme, toggleTheme } = useTheme();
+    const location = useLocation();
+
+    useEffect(() => {
+        ReactGA.pageview(location.pathname + location.search);
+    }, [location]); 
 
     return (
-        <Router>
-            <Navbar className={theme} expand="lg">
+            <Navbar className={theme} bg={theme === "dark-theme" ? "dark" : "light"} data-bs-theme={theme === "dark-theme" ? "dark" : "light"} expand="lg">
                 <Navbar.Brand  className={theme} as={Link} to="/">MTG Admin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <NavDropdown title="Standard" class="basic-nav-dropdown" className={theme}>
+                    <Nav  className="flex-grow-1">
+                        <NavDropdown title="Standard" className={theme+" basic-nav-dropdown"}>
                             
                         </NavDropdown>
-                        <NavDropdown title="Pioneer" class="basic-nav-dropdown" className={theme}>
+                        <NavDropdown title="Pioneer" className={theme+" basic-nav-dropdown"}>
                             
                         </NavDropdown>
-                        <NavDropdown title="Modern" class="basic-nav-dropdown" className={theme}>
+                        <NavDropdown title="Modern" className={theme+" basic-nav-dropdown"}>
                             
                         </NavDropdown>
-                        <NavDropdown title="Legacy" class="basic-nav-dropdown" className={theme}>
+                        <NavDropdown title="Legacy" className={theme+" basic-nav-dropdown"}>
                             
                         </NavDropdown>
-                        <NavDropdown title="Vintage" class="basic-nav-dropdown" className={theme}>
+                        <NavDropdown title="Vintage" className={theme+" basic-nav-dropdown"}>
                             
                         </NavDropdown>
-                        <NavDropdown title="cEDH" class="basic-nav-dropdown" className={theme}>
-                            <NavDropdown.Item as={Link} to="/tournament-stats">Tournament Stats</NavDropdown.Item>
+                        <NavDropdown title="cEDH" className={theme+" basic-nav-dropdown"}>
+                            <NavDropdown.Item className={theme} as={Link} to="/tournament-stats">Tournament Stats</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Nav>
-                        <button id="dark-mode-btn" onClick={toggleTheme} className="btn btn-outline-secondary ml-auto">
+                    <Nav className='ml-auto'>
+                        <DonateButton></DonateButton>
+                        {/* <button id="dark-mode-btn" onClick={toggleTheme} className="btn btn-outline-secondary ml-auto">
                             {theme === 'dark-theme' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-                        </button>
+                        </button> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-            <Routes>
-                <Route path="/tournament-stats" element={<CEDHTournamentStats />} />
-                <Route path="/" element={<Homepage />} />
-            </Routes>
-        </Router>
     );
 }
 

@@ -18,7 +18,7 @@ function Homepage() {
                 textAlign: 'center',
                 borderRadius: '10px'
             }}>
-            <h1>Welcome to mtg-admin!</h1> 
+            <h1>Welcome to MTG Admin!</h1> 
                 <br />
             <h1>Try the <Link to="/tournament-stats">cEDH Tournament Stats Tool</Link></h1>
         </div>
