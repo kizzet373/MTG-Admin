@@ -1,0 +1,267 @@
+/* Centering container with navbar height considered */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 70px); /* Adjust the 70px to your navbar height */
+  padding-top: 0px;
+  background-color: #121212; /* Dark background for the whole page */
+}
+
+/* Parent Wrapper */
+.wrapper {
+  width: 70%;
+  max-width: 70%;
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+
+  /* hide scrollbar */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
+.cedh-table-wrapper {
+  display: block; /* Allow horizontal scrolling */
+  width: auto;
+  max-width: 100%; /* Constrain the width of the table wrapper */
+  max-height: 60vh;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin: 0 auto; /* Center the wrapper */
+  scrollbar-width: thin; /* Firefox: Use thin scrollbar */
+  scrollbar-color: #4a4a4a #1e1e1e; /* Firefox: Thumb and track colors */
+}
+
+/* Scrollbar styling for Webkit-based browsers (Chrome, Edge, Safari) */
+.cedh-table-wrapper::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+.cedh-table-wrapper::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background for the scrollbar track */
+  border-radius: 4px; /* Rounded corners for track */
+}
+
+.cedh-table-wrapper::-webkit-scrollbar-thumb {
+  background: #4a4a4a; /* Dark gray thumb */
+  border-radius: 4px; /* Rounded corners for thumb */
+}
+
+.cedh-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #6a6a6a; /* Slightly lighter gray on hover */
+}
+
+.cedh-table-wrapper::-webkit-scrollbar-thumb:active {
+  background: #8a8a8a; /* Even lighter gray when active (clicked) */
+}
+
+/* Table styling */
+.cedh-table {
+  display: table;
+  table-layout: auto;
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #f5f5f5; /* Light text color */
+  font-size: 60%;
+  white-space: nowrap;
+  border:1px solid #333;
+}
+
+.cedh-table th,
+.cedh-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.cedh-table th {
+  position: sticky;
+  top: 0;
+  background-color: #252525;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cedh-table tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+.cedh-table tr:nth-child(odd) {
+  background-color: #1e1e1e;
+}
+
+.cedh-table tr:hover {
+  background-color: #3e3e3e;
+}
+
+/* Sorted column indicators */
+.cedh-table th.asc::after {
+  content: " 🔼";
+}
+
+.cedh-table th.desc::after {
+  content: " 🔽";
+}
+
+/* Dropdown inside table header */
+.cedh-table select {
+  font-size: inherit; /* Matches the table font size */
+  border: none; /* Removes border */
+  background-color: #1e1e1e; /* Matches header background */
+  color: #f5f5f5; /* Matches header text color */
+  cursor: pointer; /* Indicates interactivity */
+  padding: 2px; /* Adjust padding for a cleaner look */
+  border: 2px solid #f5f5f5;
+}
+
+.cedh-table select:focus {
+  outline: none; /* Removes outline on focus */
+}
+
+.cedh-table option {
+  background-color: #1e1e1e; /* Darker background for dropdown options */
+  color: #f5f5f5; /* Light text color for options */
+}
+
+.cedh-table td div img {
+  width: 1em;
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .mobile-hidden {
+    display: none;
+  }
+
+  .cedh-table th.mobile-hidden,
+  .cedh-table td.mobile-hidden {
+    display: none;
+  }
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+  justify-content: center; /* Horizontally center */
+  align-items: center;        /* Adjust height as needed */
+}
+
+.filters .date-range,
+.filters .tournament-filters,
+.filters .entries-filter {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tournament-filters .reminder
+{
+  font-size: 60%;
+}
+
+/* Target the input inside the datepicker */
+.react-datepicker__input-container input {
+  display: inline-block;
+  width: 7rem;
+  box-sizing: content-box;
+  padding: 3px 6px; /* Reduced padding for smaller height */
+  font-size: 0.85em; /* Smaller font size for compactness */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 3px; /* Slightly smaller rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  white-space: nowrap;
+  text-align: center; /* Center-align the text */
+  transition: all 0.2s ease; /* Smooth transitions for hover/focus effects */
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Add hover effects */
+.react-datepicker__input-container input:hover {
+  border-color: #888; /* Darken border color on hover */
+  background-color: #e9e9e9; /* Slightly darker background */
+}
+
+/* Add focus effects */
+.react-datepicker__input-container input:focus {
+  outline: none; /* Remove default outline */
+  border-color: #007bff; /* Add a blue border to indicate focus */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+/* Filter Buttons */
+.filter-button {
+  padding: 5px 10px;
+  color: #f5f5f5;
+  background-color: #2b2b2b;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.911);
+  display: inline-block;
+}
+
+.filter-button span {
+  display: block;
+}
+
+.filter-button.active {
+  color: #ffffff;
+}
+
+.filter-button.active.bronze {
+  background-color: #474747;
+  box-shadow: 0rem 0rem .4rem .3rem rgb(146, 92, 29);
+}
+
+.filter-button.active.silver {
+  background-color: #474747;
+  box-shadow: 0rem 0rem .4rem .3rem rgb(192, 192, 192);
+}
+
+.filter-button.active.gold {
+  background-color: #474747;
+  box-shadow: 0rem 0rem .4rem .3rem rgb(231, 197, 0);
+}
+
+.filter-button.active.platinum {
+  background-color: #474747;
+  box-shadow: 0rem 0rem .4rem .3rem rgb(100, 166, 197);
+}
+
+.filter-button:hover {
+  background-color: #3e3e3e; /* Slightly lighter for hover */
+}
+
+/* Minimum Players Input */
+.entries-filter input[type="number"] {
+  width: 50px;
+  text-align: center;
+  padding: 3px;
+  color: #353535;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid #353535;
+  border-radius: 3px;
+}

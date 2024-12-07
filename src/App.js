@@ -6,6 +6,7 @@ import ReactGA from 'react-ga';
 //Components
 import NavBar from "./components/NavBar";
 import CEDHTournamentStats from './components/CEDHTournamentStats';
+import CEDHTournamentStatsOld from './components/CEDHTournamentStatsOld';
 import Homepage from './components/Homepage';
 
 //Contexts
@@ -35,6 +36,7 @@ const MainContent = () => {
       <NavBar />
       <Routes>
         <Route path="/tournament-stats" element={<CEDHTournamentStats />} />
+        <Route path="/tournament-stats-old" element={<CEDHTournamentStatsOld />} />
         <Route path="/" element={<Homepage />} />
       </Routes>
     </Router>

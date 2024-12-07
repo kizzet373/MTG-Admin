@@ -86,180 +86,6 @@ I've created a flow chart of hulk piles that you would want to use depending on 
 ===accordion|autocollapse
 ===panel: Sorcery Speed Wins
 ___
-===accordion|autocollapse
-===panel: Dockside makes at least 5
-___
-===accordion|autocollapse
-===panel: You're worried about creature removal
-___
-* Hulk Pile: [[Dockside Extortionist]] + [[Magda, Brazen Outlaw]] + [[Sylvan Safekeeper]] + [[Tinder Wall]]
-___
-===accordion|autocollapse
-===panel: Dryad Arbor is in library and you have a forest fetchland accessible
-___
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, creating 5+ treasures.
-2. If beneficial, sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cursed Mirror]], copying [[Dockside Extortionist]], making 5+ treasures.
-3. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cloudstone Curio]].
-5. Fetch for [[Dryad Arbor]]. [[Cloudstone Curio]] triggers and returns [[Dockside Extortionist]] to hand.
-6. Go to Main Phase 2 and sacrifice [[Tinder Wall]] to add [[symbol:r]][[symbol:r]] to recast [[Dockside Extortionist]].
-7. Present loop with bouncing [[Dockside Extortionist]] and [[Magda, Brazen Outlaw]], making infinite treasures and then shoot everyone to death.
-
-Extra: If the loop feeds [[Rhystic Study]], loop [[Cursed Mirror]] and [[Dockside Extortionist]] instead. (Yes, [[Cursed Mirror]] isn't an artifact when it copies a creature, so it works with [[Cloudstone Curio]])
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: Dryad Arbor is in library, you don't have a forest fetchland accessible, you have Erinis out, and you haven't gone to combat yet
-___
-- Add [[Dryad Arbor]] to the hulk pile
-___
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, hopefully creating 5+ treasures.
-2. If beneficial, sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cursed Mirror]], copying [[Dockside Extortionist]], making 5+ treasures.
-3. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cloudstone Curio]].
-4. Sacrifice [[Dryad Arbor]] to [[Sylvan Safekeeper]], giving [[Dockside Extortionist]] shroud.
-5. Go to combat and attack with [[Erinis, Gloom Stalker]], returning [[Dryad Arbor]]. [[Cloudstone Curio]] triggers and returns [[Dockside Extortionist]].
-6. Go to Main Phase 2 and sacrifice [[Tinder Wall]] to add [[symbol:r]][[symbol:r]] to recast [[Dockside Extortionist]].
-7. Present loop with bouncing [[Dockside Extortionist]] and [[Magda, Brazen Outlaw]], making infinite treasures and then shoot everyone to death.
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You're worried about artifact removal on Cloudstone Curio
-___
-===accordion|autocollapse
-===panel: Dockside makes 8+
-___
-When this is the case, your [[Cursed Mirror]] doubles the dockside, totaling 10+ treasures. You can then use [[Magda, Brazen Outlaw]] to grab a [[Trinisphere]] before you grab your [[Cloudstone Curio]], hopefully stopping future interaction.
-___
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You're sure they can remove Cloudstone Curio and Snoop isn't available
-___
-[[Dockside Extortionist]] + [[Temur Sabertooth]] (+ [[Dryad Arbor]])
-___
-This is our last resort hulk pile. It relies on very little cards and if you have some extra mana, you can protect your creatures while killing your opponents. This only works if [[Dockside Extortionist]] adds 5+ treasures and we have enough mana prior to [[Dockside Extortionist]]'s trigger to save him with the [[Temur Sabertooth]] if necessary. The steps are quite simple:
-    1. Make 5+ treasures from [[Dockside Extortionist]].
-    2. Return [[Dockside Extortionist]] to hand with [[Temur Sabertooth]].
-    3. Recast [[Dockside Extortionist]] and present loop.
-    4. This allows us to infinitely create treasures and ping our opponents to death with [[Street Urchin]].
-    
-* **Positives:** Requires very little and we can sometimes kill our opponents on the same turn that we protect our creatures.
-* **Negatives:** This loses to an opponent's [[Null Rod]], [[Cursed Totem]], or [[Rule of Law]] effects. It also requires Dockside to give us 5+ treasures.
-___
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: Dockside only makes 4
-___
-- Hulk Pile: [[Dockside Extortionist]] + [[Goblin Engineer]] + [[Torch Courier]] + [[Sylvan Safekeeper]]
-- [[Dryad Arbor]] if it's in library and you haven't gone to combat yet and have no forest fetchland accessible
-___
-This is a hulk pile that fills a particular niche. It can win if [[Dockside Extortionist]] makes 4+ treasures. The line is a little complex:
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, hopefully creating 4+ treasures.
-2. [[Goblin Engineer]] also triggers, putting [[Cloudstone Curio]] into the graveyard.
-3. Sacrifice [[Torch Courier]] to give [[Goblin Engineer]] haste.
-4. Sacrifice a treasure for a red and another to active [[Goblin Engineer]], putting [[Cloudstone Curio]] into play.
-5. If [[Dryad Arbor]] is already out, sacrifice it to [[Sylvan Safekeeper]], giving [[Dockside Extortionist]] shroud.
-6. Go to combat and attack with [[Erinis, Gloom Stalker]], returning [[Dryad Arbor]] or fetch for it. [[Cloudstone Curio]] triggers and returns [[Dockside Extortionist]].
-7. Go to Main Phase 2 and sacrifice the other two treasures to add [[symbol:r]][[symbol:r]] and recast [[Dockside Extortionist]].
-8. Present loop with [[Dockside Extortionist]] and [[Sylvan Safekeeper]] and then shoot everyone to death.
-
-* **Positives:** Only requires [[Dockside Extortionist]] to give us 4+ treasures.
-* **Negatives:** Loses to [[Cursed Totem]], [[Torpor Orb]], [[Null Rod]], and [[Rule of Law]] effects.
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: Dockside just sucks right now?
-[[Goblin Recruiter]] + [[Conspicuous Snoop]] + 
-* ([[Torch Courier]] if you don't want to have to cast another spell. Or if there's a [[Drannith Magistrate]], etc.)
-* ([[Sylvan Safekeeper]] if you can convince the players that your creatures are completely protected from removal. You can't actually have snoop target itself if it has shroud.)
-* ([[Tinder Wall]] if you need mana for [[Tibalt's Trickery]] or something similar)
-* ([[Masked Vandal]] if you need to remove a [[Blind Obedience]], [[Rule of Law]], or [[Cursed Totem]], etc)
-___
-This is our secondary [[Protean Hulk]] pile and it wins by:
-1. Stacking the library with [[Goblin Recruiter]], putting [[Torch Courier]] on top if necessary, then [[Kiki-Jiki, Mirror Breaker]], then [[Skirk Prospector]] if it's not already out. 
-2. You cast [[Torch Courier]] if necessary, sacrifice [[Torch Courier]] to give [[Conspicuous Snoop]] haste.
-3. With [[Kiki-Jiki, Mirror Breaker]] on the top of your library, you can have [[Conspicuous Snoop]] make infinite copies of itself. 
-4. The last copy of [[Conspicuous Snoop]] is untapped and you can use it to make a copy of your [[Goblin Recruiter]], stacking the deck again to have [[Skirk Prospector]] on top, then [[Dockside Extortionist]] under it. 
-5. You can then sacrifice infinite [[Conspicuous Snoop]]s to gain infinite [[symbol:r]] from [[Skirk Prospector]]
-6. You can cast [[Skirk Prospector]] off the top, then cast [[Dockside Extortionist]] off the top if you need the extra [[symbol:g]] to recast [[Erinis, Gloom Stalker]]
-7. Ping them to death with [[Erinis, Gloom Stalker]] + [[Street Urchin]]. 
-    
-* **Positives:** This gets around [[Rule of Law]] and [[Null Rod]]
-* **Negatives:** Loses to [[Cursed Totem]] and [[Torpor Orb]] effects unless you hit it with [[Masked Vandal]]. Although the [[Sylvan Safekeeper]] keeps our board safe, the [[Conspicuous Snoop]] needs to be able to target itself with [[Kiki-Jiki, Mirror Breaker]]'s ability, so it forces us to wait until our next turn to try again if someone tries to remove the [[Conspicuous Snoop]].
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You want to keep an ouphe up
-===accordion|autocollapse
-===panel: Ouphe is up already
-[[Goblin Recruiter]] + [[Conspicuous Snoop]] + 
-* ([[Torch Courier]] if you don't want to have to cast another spell. Or if there's a [[Drannith Magistrate]], etc.)
-* ([[Sylvan Safekeeper]] if you can convince the players that your creatures are completely protected from removal. You can't actually have snoop target itself if it has shroud.)
-* ([[Tinder Wall]] if you need mana for [[Tibalt's Trickery]] or something similar)
-* ([[Masked Vandal]] if you need to remove a [[Blind Obedience]], [[Rule of Law]], or [[Cursed Totem]], etc)
-___
-This is our secondary [[Protean Hulk]] pile and it wins by:
-1. Stacking the library with [[Goblin Recruiter]], putting [[Torch Courier]] on top if necessary, then [[Kiki-Jiki, Mirror Breaker]], then [[Skirk Prospector]] if it's not already out. 
-2. You cast [[Torch Courier]] if necessary, sacrifice [[Torch Courier]] to give [[Conspicuous Snoop]] haste.
-3. With [[Kiki-Jiki, Mirror Breaker]] on the top of your library, you can have [[Conspicuous Snoop]] make infinite copies of itself. 
-4. The last copy of [[Conspicuous Snoop]] is untapped and you can use it to make a copy of your [[Goblin Recruiter]], stacking the deck again to have [[Skirk Prospector]] on top, then [[Dockside Extortionist]] under it. 
-5. You can then sacrifice infinite [[Conspicuous Snoop]]s to gain infinite [[symbol:r]] from [[Skirk Prospector]]
-6. You can cast [[Skirk Prospector]] off the top, then cast [[Dockside Extortionist]] off the top, and then sacrifice [[Collector Ouphe]] if you need the extra [[symbol:g]] to recast [[Erinis, Gloom Stalker]]
-7. Ping them to death with [[Erinis, Gloom Stalker]] + [[Street Urchin]]. 
-    
-* **Positives:** This gets around [[Rule of Law]] and [[Null Rod]]
-* **Negatives:** Loses to [[Cursed Totem]] and [[Torpor Orb]] effects unless you hit it with [[Masked Vandal]]. Although the [[Sylvan Safekeeper]] keeps our board safe, the [[Conspicuous Snoop]] needs to be able to target itself with [[Kiki-Jiki, Mirror Breaker]]'s ability, so it forces us to wait until our next turn to try again if someone tries to remove the [[Conspicuous Snoop]].
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You need to slam that ouphe down with the hulk pile
-===accordion|autocollapse
-===panel: You're worried about Stax Pieces, Force of Will, or Deflecting Swat
-___
-* Hulk Pile: [[Dockside Extortionist]] + [[Magda, Brazen Outlaw]] + [[Collector Ouphe]] + 
-    * [[Dryad Arbor]] if you can't fetch for it.
-
-Prerequisite:
-* Dockside makes 11+ treasures 
-* Have 1 mana available
-___
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, creating 11+ treasures. (opponents can't activate artifacts)
-2. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cursed Mirror]], copying [[Dockside Extortionist]], making another 11+ treasures, going up to 17+
-3. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Trinisphere]].
-4. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cloudstone Curio]].
-5. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Masked Vandal]], triggering [[Cloudstone Curio]] and returning [[Dockside Extortionist]] to hand.
-6. Use the 1 mana available (the prerequisite for this line) and sacrifice the [[Collector Ouphe]], shooting something random in the face.
-7. Crack the last 2 treasures, casting [[Dockside Extortionist]], looping with [[Cursed Mirror]] as long as dockside makes at least 4 treasures now.
-8. Make infinite treasures and then shoot everyone to death.
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: Dryad Arbor is in library and you have a forest fetchland accessible
-___
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, creating 8+ treasures.
-2. If beneficial, sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cursed Mirror]], copying [[Dockside Extortionist]], making 5+ treasures.
-3. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cloudstone Curio]].
-5. Fetch for [[Dryad Arbor]]. [[Cloudstone Curio]] triggers and returns [[Dockside Extortionist]] to hand.
-6. Go to Main Phase 2 and sacrifice [[Tinder Wall]] to add [[symbol:r]][[symbol:r]] to recast [[Dockside Extortionist]].
-7. Present loop with bouncing [[Dockside Extortionist]] and [[Magda, Brazen Outlaw]], making infinite treasures and then shoot everyone to death.
-
-Extra: If the loop feeds [[Rhystic Study]], loop [[Cursed Mirror]] and [[Dockside Extortionist]] instead. (Yes, [[Cursed Mirror]] isn't an artifact when it copies a creature, so it works with [[Cloudstone Curio]])
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
 ===endpanel
 ===endaccordion
 ===accordion|autocollapse
@@ -277,98 +103,6 @@ ___
     
 * **Positives:** This gets around [[Rule of Law]] and [[Null Rod]] and wins at instant speed
 * **Negatives:** Loses to [[Cursed Totem]] and [[Torpor Orb]] effects. Although the [[Sylvan Safekeeper]] keeps our board safe, the [[Conspicuous Snoop]] needs to be able to target itself with [[Kiki-Jiki, Mirror Breaker]]'s ability, so it forces us to wait until our next turn to try again if someone tries to remove the [[Conspicuous Snoop]].
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You wanna win through The One Ring protection?
-**This combo is complicated as hell. Good luck.**
-===accordion|autocollapse
-===panel: You wanna go through the snoop line to avoid Rhystic Study or Counterspells?
-[[Goblin Recruiter]] + [[Conspicuous Snoop]] + [[Torch Courier]]
-* ([[Sylvan Safekeeper]] if you can convince the players that your creatures are completely protected from removal. You can't actually have snoop target itself if it has shroud.)
-* ([[Tinder Wall]] if you need mana for [[Tibalt's Trickery]] or something similar)
-* Or replace [[Torch Courier]] and the final 1 cmc for a [[Collector Ouphe]] if it helps out with preventing interaction.
-
-**Prerequisite: [[Dockside Extortionist]] makes 1 treasure.
-___
-This is our secondary [[Protean Hulk]] pile and it wins by:
-1. Stacking the library with [[Goblin Recruiter]], putting [[Kiki-Jiki, Mirror Breaker]] on top.
-2. Sacrifice [[Torch Courier]] to give [[Conspicuous Snoop]] haste.
-3. With [[Kiki-Jiki, Mirror Breaker]] on the top of your library, you can have [[Conspicuous Snoop]] make infinite copies of itself. 
-4. The last copy of [[Conspicuous Snoop]] is untapped and you can use it to make a copy of your [[Goblin Recruiter]], stacking the deck again to put [[Skirk Prospector]] on top, then [[Vexing Shusher]], [[Kiki-Jiki, Mirror Breaker]], [[Dockside Extortionist]] and [[Goblin Engineer]] at the bottom.
-5. You can then sacrifice infinite [[Conspicuous Snoop]]s to gain infinite [[symbol:r]] from [[Skirk Prospector]]
-6. Ping to death whoever isn't under [[The One Ring]] protection to death with [[Erinis, Gloom Stalker]] + [[Street Urchin]]. 
-___
-**Here's the fun part**
-___
-7. Cast each of your creatures off the top of your deck, protecting from counterspells with [[Vexing Shusher]] if necessary, and making a treasure from [[Dockside Extortionist]].
-8. The last thing that happens is a [[Goblin Engineer]] trigger, finding a [[Cloudstone Curio]], putting it in graveyard.
-9. Tap [[Kiki-Jiki, Mirror Breaker]] to make a hasted copy of [[Goblin Engineer]], going and finding [[Trinisphere]] and putting it in graveyard.
-10. Sacrifice an artifact or treasure with [[Goblin Engineer]] to get the [[Cloudstone Curio]].
-11. Pay a [[symbol:r]] and sacrifice the tapped [[Goblin Engineer]] to have [[Erinis, Gloom Stalker]] deal 1 damage to herself, killing herself.
-12. Recast her, triggering [[Cloudstone Curio]], returning [[Dockside Extortionist]] to hand.
-14. Loop [[Dockside Extortionist]] and another creature. Then create a loop iteration that looks something like this:
-    * Bounce and Recast [[Kiki-Jiki, Mirror Breaker]], returning [[Dockside Extortionist]]
-    * Tap [[Kiki-Jiki, Mirror Breaker]], making a copy of [[Goblin Engineer]], returning [[Kiki-Jiki, Mirror Breaker]] with [[Cloudstone Curio]].
-    * Find [[Sensei's Divining Top]]. Tap [[Goblin Engineer]], sacrificing a treasure, returning [[Sensei's Divining Top]].
-    * Look at the top 3 and make sure you don't draw [[Emergence Zone]] or [[Geier Reach Sanitarium]].
-    * Activate [[Sensei's Divining Top]] to draw and put it on the top of the library.
-    * Rinse and repeat to draw all but the last two cards of your library, [[Emergence Zone]] and [[Geier Reach Sanitarium]].
-15. Cast [[Dosan the Falling]] leaf, [[Trinisphere]], [[Wandering Archaic]], etc for protection. Or infinite copies of any creature with the [[Kiki-Jiki, Mirror Breaker]] loop.
-16. Cast [[Crop Rotation]], sacrificing a land, finding [[Emergence Zone]], cracking it.
-17. Cast [[Eternal Witness]], returning the [[Crop Rotation]] to hand.
-18. Cast [[Crop Rotation]], sacrificing a land, finding the [[Geier Reach Sanitarium]]
-___
-**Crazy Loop incoming**
-___
-* Iterate this loop:    
-    * Use [[Temur Sabertooth]] or [[Cloudstone Curio]] to return and recast [[Eternal Witness]], grabbing [[Crop Rotation]].
-    * Activate [[Geier Reach Sanitarium]], hold priority and cast [[Crop Rotation]], sacrificing the [[Geier Reach Sanitarium]]. Hold priority on the [[Crop Rotation]] and hard-cast [[Endurance]]. 
-    * Resolve [[Endurance]], shuffling everything.
-    * Resolve [[Crop Rotation]], finding [[Geier Reach Santarium]]
-    * Resolve [[Geier Reach Sanitarium]], drawing a discarding something useless.
-    * Rinse and repeat until your opponents loot their decks away.
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: You wanna go through the dockside + magda line to avoid removal and deflecting swat?
-___
-* Hulk Pile: [[Dockside Extortionist]] + [[Magda, Brazen Outlaw]] + [[Sylvan Safekeeper]] + [[Tinder Wall]] +
-    * [[Dryad Arbor]] if you can't fetch for it and if you're able to recur it with [[Erinis, Gloom Stalker]] in combat this turn.
-___
-1. Everything comes into play off of [[Protean Hulk]] and [[Dockside Extortionist]] triggers, creating 5+ treasures.
-2. If beneficial, sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cursed Mirror]], copying [[Dockside Extortionist]], making 5+ treasures.
-3. Sacrifice 5 treasures to [[Magda, Brazen Outlaw]], getting [[Cloudstone Curio]].
-5. Either fetch for [[Dryad Arbor]] or sac it to [[Sylvan Safekeeper]] and return it with [[Erinis, Gloom Stalker]] in combat. [[Cloudstone Curio]] triggers and returns [[Dockside Extortionist]] to hand.
-6. Go to Main Phase 2 and sacrifice [[Tinder Wall]] to add [[symbol:r]][[symbol:r]] to recast [[Dockside Extortionist]].
-7. Present loop with bouncing [[Dockside Extortionist]] and [[Magda, Brazen Outlaw]], making infinite treasures, finding [[Trinisphere]] ASAP.
-6. Ping to death whoever isn't under [[The One Ring]] protection to death with [[Erinis, Gloom Stalker]] + [[Street Urchin]]. 
-___
-**Here's the fun part**
-___
-7. Then create an iteration that looks something like this:
-    * Activate [[Magda, Brazen Outlaw]], finding [[Sensei's Divining Top]].
-    * Look at the top 3 and make sure you don't draw [[Emergence Zone]] or [[Geier Reach Sanitarium]].
-    * Activate [[Sensei's Divining Top]] to draw and put it on the top of the library.
-    * Rinse and repeat to draw all but the last two cards of your library, [[Emergence Zone]] and [[Geier Reach Sanitarium]].
-8. Cast [[Dosan the Falling]] leaf, [[Trinisphere]], [[Wandering Archaic]], etc for protection. Or infinite copies of any creature with the [[Kiki-Jiki, Mirror Breaker]] loop.
-9. Cast [[Crop Rotation]], sacrificing a land, finding [[Emergence Zone]], cracking it.
-10. Cast [[Eternal Witness]], returning the [[Crop Rotation]] to hand.
-11. Cast [[Crop Rotation]], sacrificing a land, finding the [[Geier Reach Sanitarium]]
-___
-**Crazy Loop incoming**
-___
-* Iterate this loop:
-    * Use [[Temur Sabertooth]] or [[Cloudstone Curio]] to return and recast [[Eternal Witness]], grabbing [[Crop Rotation]].
-    * Activate [[Geier Reach Sanitarium]], hold priority and cast [[Crop Rotation]], sacrificing the [[Geier Reach Sanitarium]]. Hold priority on the [[Crop Rotation]] and hard-cast [[Endurance]]. 
-    * Resolve [[Endurance]], shuffling everything.
-    * Resolve [[Crop Rotation]], finding [[Geier Reach Santarium]]
-    * Resolve [[Geier Reach Sanitarium]], drawing a discarding something useless.
-    * Rinse and repeat until your opponents loot their decks away.
-___
-===endpanel
-===endaccordion
 ===endpanel
 ===endaccordion
 ___
@@ -511,7 +245,72 @@ Use this when threatened by removal:
 ===endaccordion
 ===endpanel
 ===endaccordion
+===accordion|autocollapse
+===panel: Other Win-conditions
+===accordion|autocollapse
+===panel: [[Goblin Recruiter]]
+___
+___
+[[Goblin Recruiter]]
+___
+**Snoop Combo**
+1. Cast [[Goblin Recruiter]] and put [[Conspicuous Snoop]] on top of your library, and then under that is [[Torch Courier]], [[Kiki-Jiki, Mirror Breaker]], and [[Skirk Prospector]]. 
+2. Find a way to draw a card or wait a turn and cast [[Conspicuous Snoop]]
+3. Cast [[Torch Courier]] off the top of your library, and then sacrifice [[Torch Courier]] to give [[Conspicuous Snoop]] haste. 
+4. Then, with the [[Kiki-Jiki, Mirror Breaker]] on the top, activate Snoop to copy himself over and over again. 
+5. The last copy of Snoop is untapped and you can use it to make a copy of your [[Goblin Recruiter]], stacking the deck again to have [[Skirk Prospector]] on top. 
+6. You can then sacrifice infinite Snoops to gain infinite [[symbol:r]] from [[Skirk Prospector]] and then ping them to death with [[Street Urchin]].
+7. (You can add [[Masked Vandal]] (Yeah, it's a goblin) to remove a stax piece like cursed totem.)
+___
+___
+===endpanel
+===endaccordion
+===accordion|autocollapse
+===panel: [[Kiki-Jiki, Mirror Breaker]] + [[Hyrax Tower Scout]]
+___
+___
+[[Kiki-Jiki, Mirror Breaker]] + [[Hyrax Tower Scout]]
+___
+This is a two card combo that allows us to get infinite hasted [[Hyrax Tower Scout]]s with haste to attack everyone for the win. Either one can come down first.
+___
+___
+===endpanel
+===endaccordion
+===accordion|autocollapse
+===panel: [[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + [[Gaea's Cradle]] or [[Skirk Prospector]]
+___
+___
+[[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + [[Gaea's Cradle]] or [[Skirk Prospector]]
+___
+You just need to find a way to put [[Kiki-Jiki, Mirror Breaker]] on top with any of the following: 
+* [[Sylvan Tutor]]
+* [[Worldly Tutor]]
+* [[Noxious Revival]]
+* [[Goblin Recruiter]]
 
+Then make infinite tapped snoops. Play a gaea's cradle and then shoot everyone down.
+___
+___
+===endpanel
+===endaccordion
+
+===accordion|autocollapse
+===panel: [[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + End Step
+___
+___
+[[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + End Step
+___
+At the end step of the turn before your own, you just need to find a way to put [[Kiki-Jiki, Mirror Breaker]] on top with any of the following: 
+* [[Sylvan Tutor]]
+* [[Worldly Tutor]]
+* [[Noxious Revival]]
+* [[Goblin Recruiter]]
+
+Then make infinite tapped [[Conspicuous Snoop]]s. Because of [[Kiki-Jiki, Mirror Breaker]]'s trigger timing to sacrifice the copy, you untap with all the copies and attack everyone for lethal.
+___
+___
+===endpanel
+===endaccordion
 ===accordion|autocollapse
 ===panel: Hermit Combos
 
@@ -601,123 +400,17 @@ Requirements:
 ===endpanel
 ===endaccordion
 
-===accordion|autocollapse
-===panel: Other Win-conditions
-===accordion|autocollapse
-===panel: [[Goblin Recruiter]]
-___
-___
-[[Goblin Recruiter]]
-___
-**Snoop Combo**
-1. Cast [[Goblin Recruiter]] and put [[Conspicuous Snoop]] on top of your library, and then under that is [[Torch Courier]], [[Kiki-Jiki, Mirror Breaker]], and [[Skirk Prospector]]. 
-2. Find a way to draw a card or wait a turn and cast [[Conspicuous Snoop]]
-3. Cast [[Torch Courier]] off the top of your library, and then sacrifice [[Torch Courier]] to give [[Conspicuous Snoop]] haste. 
-4. Then, with the [[Kiki-Jiki, Mirror Breaker]] on the top, activate Snoop to copy himself over and over again. 
-5. The last copy of Snoop is untapped and you can use it to make a copy of your [[Goblin Recruiter]], stacking the deck again to have [[Skirk Prospector]] on top. 
-6. You can then sacrifice infinite Snoops to gain infinite [[symbol:r]] from [[Skirk Prospector]] and then ping them to death with [[Street Urchin]].
-7. (You can add [[Dockside Extortionist]] to the mix if you need the extra mana or [[symbol:g]] to recast [[Erinis, Gloom Stalker]] and add [[Masked Vandal]] (Yeah, it's a goblin) to remove a stax piece like cursed totem.)
-___
-
-**Dockside + Goblin Engineer Combo**
-
-(Do this if Dockside makes 4+ treasures and you have a creature in hand. You'll have to do some calculating.)
-1. Cast [[Goblin Recruiter]] and put [[Conspicuous Snoop]] on top of your library, and then under that is [[Dockside Extortionist]], [[Skirk Prospector]], [[Torch Courier]], and [[Goblin Engineer]].
-2. Find a way to draw a card or wait a turn and cast [[Conspicuous Snoop]].
-3. Cast [[Dockside Extortionist]] off the top and the let's assume the tightest feasible situation: you have 2 mana left and you make exactly 4 treasures. (Or more treasures, less mana available)
-4. Use [[Conspicuous Snoop]]'s copied [[Skirk Prospector]] ability to sac [[Goblin Recruiter]] for a [[symbol:r]].
-5. Cast [[Skirk Prospector]] and [[Torch Courier]] off the top with the [[symbol:r]] and an available mana.
-6. Cast [[Goblin Engineer]] off the top with the last available mana and a treasure. Go find [[Cloudstone Curio]].
-7. Sacrifice [[Torch Courier]] to give [[Goblin Engineer]] haste.
-8. Activate [[Goblin Engineer]] with a treasure and sacrifice an artifact/treasure to return [[Cloudstone Curio]] from graveyard to battlefield.
-9. Sacrifice [[Goblin Engineer]] to [[Skirk Prospector]] for a [[symbol:r]].
-10. Cast a creature from hand using a treasure/[[symbol:r]] (tightest feasible situation requires a 1 drop). 
-11. Bounce [[Dockside Extortionist]] from [[Cloudstone Curio]].
-12. Sacrifice [[Skirk Prospector]] to its own ability for a [[symbol:r]] if you already have a 1 drop. We now have 2 [[symbol:r]] left.
-13. Cast [[Dockside Extortionist]] with the treasure and [[symbol:r]], making 4 treasures, and looping with [[Skirk Prospector]] to make infinite treasures.
-14. Shoot everyone down.
-___
-___
 ===endpanel
 ===endaccordion
-===accordion|autocollapse
-===panel: [[Dockside Extortionist]] + [[Temur Sabertooth]]
-___
-___
-[[Dockside Extortionist]] + [[Temur Sabertooth]]
-___
-This is a two card combo that only works if [[Dockside Extortionist]] adds 5+ treasures. You keep recasting [[Dockside Extortionist]] to make infinite treasures and shoot everyone down with [[Street Urchin]].
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: [[Dockside Extortionist]] + [[Cloudstone Curio]]
-___
-___
-[[Dockside Extortionist]] + [[Cloudstone Curio]]
-___
-This is a two card combo that requires any other creature and can work if [[Dockside Extortionist]] adds 4+ treasures. You can find this off of [[Magda, Brazen Outlaw]] or [[Goblin Engineer]]. You keep recasting [[Dockside Extortionist]] to make infinite treasures and shoot everyone down with [[Street Urchin]].
-___
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: [[Kiki-Jiki, Mirror Breaker]] + [[Hyrax Tower Scout]]
-___
-___
-[[Kiki-Jiki, Mirror Breaker]] + [[Hyrax Tower Scout]]
-___
-This is a two card combo that allows us to get infinite hasted [[Hyrax Tower Scout]]s with haste to attack everyone for the win. Either one can come down first.
-___
-___
-===endpanel
-===endaccordion
-===accordion|autocollapse
-===panel: [[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + [[Gaea's Cradle]] or [[Skirk Prospector]]
-___
-___
-[[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + [[Gaea's Cradle]] or [[Skirk Prospector]]
-___
-You just need to find a way to put [[Kiki-Jiki, Mirror Breaker]] on top with any of the following: 
-* [[Sylvan Tutor]]
-* [[Worldly Tutor]]
-* [[Noxious Revival]]
-* [[Goblin Recruiter]]
-
-Then make infinite tapped snoops. Play a gaea's cradle and then shoot everyone down.
-___
-___
-===endpanel
-===endaccordion
-
-===accordion|autocollapse
-===panel: [[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + End Step
-___
-___
-[[Conspicuous Snoop]] (tappable) + [[Kiki-Jiki, Mirror Breaker]] (on top) + End Step
-___
-At the end step of the turn before your own, you just need to find a way to put [[Kiki-Jiki, Mirror Breaker]] on top with any of the following: 
-* [[Sylvan Tutor]]
-* [[Worldly Tutor]]
-* [[Noxious Revival]]
-* [[Goblin Recruiter]]
-
-Then make infinite tapped [[Conspicuous Snoop]]s. Because of [[Kiki-Jiki, Mirror Breaker]]'s trigger timing to sacrifice the copy, you untap with all the copies and attack everyone for lethal.
-___
-___
-===endpanel
-===endaccordion
-===endpanel
-===endaccordion
-
 ===accordion|autocollapse
 ===panel: Notable Inclusions
 1. **[[Sensei's Divining Top]]:** 
 * It serves these purposes:
-    * Uncounterably cracking recruiter piles
+    * Uncounterably cracking recruiter piles and reorganizing at instant speed if necessary
     * Great card filtering with all the fetching we do
     * It's a bullet we can sac in response to tapping it to draw
-    * It's important for winning under a drannith when we crack hulk or go for dockside + magda
-    * It's important for winning through The One Ring
+    * It's useful to grab off of Urza's Saga
+    * It's powerful with Powerbalance
 ===endpanel
 ===endaccordion
 ===accordion|autocollapse
@@ -729,7 +422,7 @@ ___
 
 ===accordion|autocollapse
 ===panel: Interaction
-Even though this deck is clearly less fast and consistent than [[Minsc, Beloved Ranger]], we have quite a lot more stax and interaction than they do in order to slow down faster combo decks like [[Ad Nauseam]] decks and creature-oriented/commander-centered decks like [[Rocco, Cabaretti Caterer]], [[Kinnan, Bonder Prodigy]], [[Najeela, the Blade-Blossom]], etc.
+Even though this deck is a bit less fast and consistent than something like [[Minsc, Beloved Ranger]] (a dedicated hulk + kiki deck), we have quite a lot more stax and interaction than they do in order to slow down faster combo decks like [[Ad Nauseam]] decks and creature-oriented/commander-centered decks like [[Rocco, Cabaretti Caterer]], [[Kinnan, Bonder Prodigy]], [[Najeela, the Blade-Blossom]], etc.
 
 1. The most obvious ways we slow these decks down is our quite consistent removal in the command zone. When [[Erinis, Gloom Stalker]] and [[Street Urchin]] are out together, we have the ability "1, Sacrifice another creature or an artifact: destroy target creature."
 2. We can play stax pieces that sometimes restrict our combos because we can remove them with our [[Street Urchin]]. ex: [[Trinisphere]], [[Manglehorn]], [[Null Rod]], and [[Collector Ouphe]].
@@ -746,15 +439,13 @@ This deck does have some weaknesses that you would certainly expect:
 
 **[[Torpor Orb]]** - Only [[Conspicuous Snoop]] + [[Kiki-Jiki, Mirror Breaker]] on top combos win through this.
 
-* **[[Null Rod]] & [[Stony Silence]]** - [[Dockside Extortionist]] combos get shut down, but that's it.
+* **[[Cursed Totem]]** - Very Crippling. We have a hulk line that wins while removing it with [[Masked Vandal]].
 
-* **[[Cursed Totem]]** - Very Crippling. [[Dockside Extortionist]] + [[Cloudstone Curio]] can make infinite mana, but you'll still need to remove this to win. We have a hulk line that wins while removing it with [[Masked Vandal]].
+* **[[Linvala, Keeper of Silence]]** - Most difficult card to deal with. We only have a few answers to this: 7 tutors for [[Talon Gates of Madara]] and [[Legolas's Quick Reflexes]] on [[Erinis, Gloom Stalker]].
 
-* **[[Linvala, Keeper of Silence]]** - Most difficult card to deal with. [[Dockside Extortionist]] + [[Cloudstone Curio]] can make infinite mana, but you'll still need to remove this. We only have a few inefficient answers to this: [[Barbarian Ring]] if [[Erinis, Gloom Stalker]] is out to recur it, and [[Legolas's Quick Reflexes]].
+* **[[Grafdigger's Cage]]** - [[Kiki-Jiki, Mirror Breaker]] combos get around it and technically snoop if you work around not casting off of the top, but it still is a painful stax piece to deal with. Stops [[Hermit Druid]]. We have [[Boseiju, Who Endures]] and [[Masked Vandal]] and many many tutors for both.
 
-* **[[Grafdigger's Cage]]** - [[Dockside Extortionist]] and [[Kiki-Jiki, Mirror Breaker]] combos get around it, but it still is a painful stax piece to deal with.
-
-* **[[Drannith Magistrate]]** - Problematic if our commanders aren't out, obviously. We have a few ways to deal with it, but they aren't pretty. We can remove it with [[Collateral Damage]], [[Legolas's Quick Reflexes]], and a [[Barbarian Ring]] if [[Erinis, Gloom Stalker]] is out to recur it. [[Command Beacon]] also allows us to get around it without removing it. [[Kiki-Jiki, Mirror Breaker]] combos win through it. We can also win with [[Dockside Extortionist]] and [[Magda, Brazen Outlaw]] by making infinite treasures with [[Cloudstone Curio]] and then drawing our deck with [[Sensei's Divining Top]].
+* **[[Drannith Magistrate]]** - Problematic if our commanders aren't out, obviously. We only have a few answers to this: 7 tutors for [[Talon Gates of Madara]] and [[Legolas's Quick Reflexes]] on [[Erinis, Gloom Stalker]]. [[Command Beacon]] also allows us to get around it without removing it. [[Kiki-Jiki, Mirror Breaker]] combos win through it. Same with [[Conspicuous Snoop]] sometimes.
 ===endpanel
 ===endaccordion
 
