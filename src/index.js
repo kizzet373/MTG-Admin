@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TagManager from "react-gtm-module";
+import './components/CEDHTournamentStats/CEDHTournamentStats.scss'
 
 const env = process.env.NODE_ENV; // Identify the environment
 

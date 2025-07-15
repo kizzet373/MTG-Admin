@@ -23,11 +23,12 @@
   scrollbar-width: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .wrapper {
     width: 100%;
     max-width: 100%;
-    font-size: 14px;
+    font-size: 3.4vw;
+    padding: 2vw;
   }
 }
 
@@ -71,7 +72,8 @@
 .cedh-table {
   display: table;
   table-layout: auto;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0px;
   margin: 0 auto;
   color: #f5f5f5; /* Light text color */
   font-size: 60%;
@@ -87,6 +89,7 @@
 }
 
 .cedh-table th {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #252525;
@@ -208,6 +211,10 @@
   outline: none; /* Remove default outline */
   border-color: #007bff; /* Add a blue border to indicate focus */
   box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+.react-datepicker-popper {
+  z-index: 5;
 }
 
 /* Filter Buttons */
